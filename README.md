@@ -89,7 +89,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the '/etc/ansible/files/filebeat-config.yml' file to '/etc/filebeat/filebeat-playbook.yml'.
 - Update the filebeat-playbook.yml file to include installer 
-	-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb-
+	curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
