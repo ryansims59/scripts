@@ -32,7 +32,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name         | Function | IP Address | Operating System |
 |--------------|----------|------------|------------------|
@@ -59,6 +58,7 @@ A summary of the access policies in place can be found in the table below.
 | Elk-Server|      No             | 10.0.0.5 SSH 5601    |
 | Web-1     |      No             | 10.1.0.5 SSH 22      |
 | Web-2     |      No             | 10.1.0.6 SSH 22      |
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible will allow you to quickly and easily deploy your applications.
